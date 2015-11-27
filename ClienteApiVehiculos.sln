@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteApiVehiculos", "ClienteApiVehiculos\ClienteApiVehiculos.csproj", "{859FAE3B-77DB-4722-8FD8-330E65EE0C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseServicios", "BaseServicios\BaseServicios.csproj", "{75F6168A-97CD-418A-9B54-0F1EFC7D0DF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859FAE3B-77DB-4722-8FD8-330E65EE0C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859FAE3B-77DB-4722-8FD8-330E65EE0C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859FAE3B-77DB-4722-8FD8-330E65EE0C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859FAE3B-77DB-4722-8FD8-330E65EE0C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F6168A-97CD-418A-9B54-0F1EFC7D0DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F6168A-97CD-418A-9B54-0F1EFC7D0DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F6168A-97CD-418A-9B54-0F1EFC7D0DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F6168A-97CD-418A-9B54-0F1EFC7D0DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

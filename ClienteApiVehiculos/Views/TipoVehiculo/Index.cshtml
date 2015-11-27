@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ClienteApiVehiculos.Models.TipoVehiculo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Alta")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idTipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombreTipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcionTipo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.idTipo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombreTipo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcionTipo)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
